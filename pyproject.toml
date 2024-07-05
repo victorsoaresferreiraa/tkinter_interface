@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tkinter-interface"
+version = "0.1.0"
+description = ""
+authors = ["victor <victorsoaresferreira09@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygubu-designer = "^0.39.3"
+googletrans = "^3.0.0"
+ttkthemes = "^3.2.2"
+ttkbootstrap = "^1.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
